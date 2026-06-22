@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Affan Rahmani — DevOps & Cloud Engineer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://googleapis.com" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cloudflare.com" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation Menu -->
+  <nav class="navbar">
+    <button class="nav-btn active" onclick="scrollToSection('profile', this)">Home</button>
+    <button class="nav-btn" onclick="scrollToSection('about', this)">About</button>
+    <button class="nav-btn" onclick="scrollToSection('resume', this)">Skills & Experience</button>
+    <button class="nav-btn" onclick="scrollToSection('portfolio', this)">Projects</button>
+    <button class="nav-btn" onclick="scrollToSection('contact', this)">Contact</button>
+  </nav>
+
+  <!-- Profile Section -->
+  <section id="page-profile" class="section">
+    <div class="hero-content">
+      <h1>Affan Rahmani</h1>
+      <p class="subtitle">DevOps & Cloud Systems Engineer</p>
+      <p class="tagline">Automating infrastructures, building reliable CI/CD pipelines, and scaling cloud architectures.</p>
+      <div class="social-links">
+        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="page-about" class="section">
+    <h2>About Me</h2>
+    <p>I am a DevOps Engineer focused on bridging the gap between development and operations. I specialize in automation, infrastructure scalability, and keeping downtime to zero.</p>
+  </section>
+
+  <!-- Resume / Skills Section -->
+  <section id="page-resume" class="section">
+    <h2>Skills & Experience</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
+        <ul>
+          <li>AWS (EC2, S3, RDS, IAM, VPC)</li>
+          <li>Google Cloud Platform (GCP)</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3><i class="fas fa-tools"></i> DevOps & IaC</h3>
+        <ul>
+          <li>Terraform / Ansible</li>
+          <li>Docker / Kubernetes</li>
+          <li>GitHub Actions / Jenkins</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3><i class="fas fa-code"></i> Scripting & Systems</h3>
+        <ul>
+          <li>Linux / Bash Scripting</li>
+          <li>Python Automation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="page-portfolio" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Automated CI/CD GitOps Pipeline</h3>
+        <p>Built a secure containerized application pipeline using GitHub Actions, Docker, and Kubernetes (ArgoCD) for zero-downtime deployments.</p>
+      </div>
+      <div class="project-card">
+        <h3>Multi-Region AWS Infrastructure (IaC)</h3>
+        <p>Provisioned a highly available, fault-tolerant infrastructure setup over AWS using modular Terraform scripts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="page-contact" class="section">
+    <h2>Get In Touch</h2>
+    <p>Want to optimize your deployment workflows or discuss system architecture? Let's connect!</p>
+    <a href="mailto:your-email@example.com" class="contact-btn">Shoot an Email</a>
+  </section>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
